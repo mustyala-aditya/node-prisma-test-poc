@@ -12,7 +12,7 @@ interface CountableCollection {
   }): Promise<number>;
 }
 
-const FIRST_PAGE = 1;
+const FIRST_PAGE = 0;
 const PAGE_SIZE = 10;
 const PAGE_QUERY_PARAM = "page";
 const SHARD_QUERY_PARAM = "shard";
